@@ -1,0 +1,35 @@
+.feedback {
+    padding-bottom: 50px;
+    &-item {
+        margin-top: 60px;
+        display: flex;
+
+        &__photo {
+            width: 169px;
+            height: 169px;
+        }
+        &__info {
+            padding-right: 60px;
+            margin-left: 60px;
+        }
+        &__name {
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 18px;
+            color: #0D0D0D;
+        }
+        &__additional {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 22px;
+            color: #646464;
+        }
+        &__feedback {
+            margin-top: 10px;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 24px;
+            color: #0D0D0D;
+        }
+    }
+}
